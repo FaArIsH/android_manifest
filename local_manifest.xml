@@ -6,7 +6,7 @@
     <!-- Stock kernel -->
     <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
     <!-- Custom kernel -->
-    <project path="kernel/samsung/custom_kernel" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0_mod" />
+    <project path="kernel/samsung/custom_kernel" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0_mod" />
     
                                                     <!-- Expressltexx -->
     <project path="device/samsung/expressltexx" name="MSM8930-Samsung/android_device_samsung_expressltexx" remote="github" revision="cm-13.0" />
@@ -14,7 +14,7 @@
     <!-- Stock kernel -->
     <project path="kernel/samsung/expressltexx" name="MSM8930-Samsung/android_kernel_samsung_expressltexx" remote="github" revision="cm-13.0" />
     <!-- Custom kernel -->
-    <project path="kernel/samsung/expressltexx_mod" name="MSM8930-Samsung/android_kernel_samsung_expressltexx" remote="github" revision="cm-13.0_mod" />
+    <project path="kernel/samsung/expressltexx_mod" name="kostoulhs/android_kernel_samsung_expressltexx" remote="github" revision="cm-13.0_mod" />
     
                                                     <!-- Wilcoxltexx -->
     <project path="device/samsung/wilcoxltexx" name="MSM8930-Samsung/android_device_samsung_wilcoxltexx" remote="github" revision="cm-13.0" />

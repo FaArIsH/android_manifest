@@ -2,20 +2,18 @@
 <manifest>
 
 						<!-- Loganreltexx -->
-    <project path="device/samsung/loganreltexx" name="kostoulhs/android_device_samsung_loganreltexx" remote="github" revision="cm-13.0" />
-    <project path="vendor/samsung/loganreltexx" name="kostoulhs/proprietary_vendor_samsung_loganreltexx" remote="github" revision="cm-13.0"/>
-    <!-- Stock kernel -->
-    <project path="kernel/samsung/msm8930-common" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
-    <!-- Custom kernel -->
-    <project path="kernel/samsung/custom_kernel" name="kostoulhs/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0_mod" />
+    <project path="device/samsung/loganreltexx" name="MSM8930-Samsung/android_device_samsung_loganreltexx" remote="github" revision="cm-13.0" />
+    <project path="vendor/samsung/loganreltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_loganreltexx" remote="github" revision="cm-13.0"/>
 
 						<!-- Expressltexx -->
     <project path="device/samsung/expressltexx" name="MSM8930-Samsung/android_device_samsung_expressltexx" remote="github" revision="cm-13.0" />
     <project path="vendor/samsung/expressltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_expressltexx" remote="github" revision="cm-13.0"/>
-    <!--  Stock kernel -->
-    <project path="kernel/samsung/expressltexx" name="MSM8930-Samsung/android_kernel_samsung_expressltexx" remote="github" revision="cm-13.0" />
-    <!--  Custom kernel -->
-    <project path="kernel/samsung/expressltexx_mod" name="kostoulhs/android_kernel_samsung_expressltexx" remote="github" revision="cm-13.0_mod" />
+    
+    						<!-- Longare & Express Kernel -->
+    <!-- Stock kernel -->
+    <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
+    <!-- Custom kernel -->
+    <project path="kernel/samsung/custom_kernel" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0_mod" />
 
 						<!-- Wilcoxltexx -->
     <project path="device/samsung/wilcoxltexx" name="MSM8930-Samsung/android_device_samsung_wilcoxltexx" remote="github" revision="cm-13.0" />
@@ -23,7 +21,7 @@
     <project path="kernel/samsung/wilcoxltexx" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
 
     						<!-- Common Repo's -->
-    <project path="device/samsung/qcom-common" name="kostoulhs/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
+    <project path="device/samsung/qcom-common" name="MSM8930-Samsung/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
     <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="github" revision="cm-13.0" />
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
     <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-13.0" />

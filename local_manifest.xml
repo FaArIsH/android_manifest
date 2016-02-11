@@ -2,7 +2,7 @@
 <manifest>
 
 						<!-- Loganreltexx -->
-    <project path="device/samsung/loganreltexx" name="MSM8930-Samsung/android_device_samsung_loganreltexx" remote="github" revision="multirom" />
+    <project path="device/samsung/loganreltexx" name="kostoulhs/android_device_samsung_loganreltexx" remote="github" revision="multirom" />
     <project path="vendor/samsung/loganreltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_loganreltexx" remote="github" revision="cm-13.0"/>
     
     						<!-- Loganre Kernel -->

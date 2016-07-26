@@ -7,7 +7,7 @@
     <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
 
     						<!-- Common Repo's -->
-    <project path="device/samsung/qcom-common" name="MSM8930-Samsung/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
+    <project path="device/samsung/qcom-common" name="MSM8930-Samsung/android_device_samsung_qcom-common" remote="github" revision="mm6.0" />
     <project path="device/samsung/msm8930-common" name="MSM8930-Samsung/android_device_samsung_msm8930-common" remote="github" revision="mm6.0" />
     <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
     <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0"/>

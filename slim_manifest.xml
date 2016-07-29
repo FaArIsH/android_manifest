@@ -32,6 +32,7 @@
     <remove-project name="device/generic/mips" />
     <remove-project name="device/google/atv" />
     <remove-project name="SlimRoms/hardware_samsung_slsi_exynos5" />
+    <remove-project name="SlimRoms/hardware_ti_omap3" />
     <remove-project name="SlimRoms/hardware_ti_omap4" />
     <remove-project name="SlimRoms/hardware_ti_omap4xxx" />
     <remove-project name="SlimRoms/hardware_ti_wlan" />
@@ -75,6 +76,6 @@
     <remove-project name="platform/hardware/intel/sensors" />
     <remove-project name="platform/hardware/marvell/bt" />
     <remove-project name="platform/hardware/mediatek" />
-    <remove-project name="SlimRoms/hardware_ti_omap3" />
+    <remove-project name="hardware/nvidia/audio" />
     
 </manifest>

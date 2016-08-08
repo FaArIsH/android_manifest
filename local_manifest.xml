@@ -34,6 +34,7 @@
     <remove-project name="device/generic/goldfish" />
     <remove-project name="device/generic/mips" />
     <remove-project name="device/google/atv" />
+    <remove-project name="SlimRoms/android_prebuilt" />
     <remove-project name="SlimRoms/hardware_ti_omap3" />
     <remove-project name="SlimRoms/hardware_ti_omap4" />
     <remove-project name="SlimRoms/hardware_ti_omap4xxx" />

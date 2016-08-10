@@ -11,7 +11,7 @@
     
         					<!-- Wilcoxltexx -->
     <project path="device/samsung/wilcoxltexx" name="MSM8930-Samsung/android_device_samsung_wilcoxltexx" remote="github" revision="broken6" />
-    <project path="kernel/samsung/wilcoxltexx" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0"
+    <project path="kernel/samsung/wilcoxltexx" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
     <project path="vendor/samsung/wilcoxltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_wilcoxltexx" remote="github" revision="cm-13.0"/>
     
     <!-- Stock kernel -->

@@ -31,7 +31,7 @@
     <project path="vendor/nxp-nfc/opensource/frameworks" name="SlimRoms/vendor_nxp-nfc_opensource_frameworks" remote="github" revision="mm6.0" />
 
 						<!-- Snap Camera -->
-    <project path="packages/apps/Snap" name="SlimRoms/packages_apps_Snap" remote="github" revision="mm6.0" />
+    <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="cm-13.0" />
     
                                                 <!-- Switch to our Power HAL -->
     <remove-project name="SlimRoms/hardware_qcom_power" />

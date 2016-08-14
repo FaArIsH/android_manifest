@@ -4,12 +4,14 @@
 						<!-- Loganreltexx -->
     <project path="device/samsung/loganreltexx" name="MSM8930-Samsung/android_device_samsung_loganreltexx" remote="github" revision="mm6.0" />
     <project path="vendor/samsung/loganreltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_loganreltexx" remote="github" revision="cm-13.0"/>
+    
     						<!-- Expressltexx -->
     <project path="device/samsung/expressltexx" name="MSM8930-Samsung/android_device_samsung_expressltexx" remote="github" revision="mm6.0" />
     <project path="vendor/samsung/expressltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_expressltexx" remote="github" revision="cm-13.0"/>
-    <!-- Stock kernel -->
+    
+    						<!-- Stock kernel -->
     <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
-    <!-- Custom kernel -->
+    						<!-- Custom kernel -->
     <project path="kernel/samsung/custom_kernel" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0_mod" />
 
     						<!-- Common Repo's -->

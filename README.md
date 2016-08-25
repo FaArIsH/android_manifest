@@ -41,7 +41,7 @@ Now that you have done everything else from this guide except the commands above
 
 When the process is finished, you will have fetched CyanogenMod source code, under $HOME/cm13 directory 
 
-Optinal step is to setup our enabled in ~/.bashrc ccache (for faster build on second time):
+Essential step is to setup our enabled in ~/.bashrc ccache (for faster build on second time):
 
 1. cd ~/cm13
 

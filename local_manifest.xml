@@ -90,6 +90,5 @@
 <remove-project name="CyanogenMod/android_hardware_intel_img_psb_video" />
 <remove-project name="platform/hardware/intel/sensors" />
 <remove-project name="platform/hardware/marvell/bt" />
-<remove-project name="platform/hardware/mediatek" />
 <remove-project name="platform/hardware/ti/omap3" />
 </manifest>

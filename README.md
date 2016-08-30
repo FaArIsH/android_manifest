@@ -62,6 +62,9 @@ Now it is compile time ;) :
 When this very long process (especially on low-end PC) finishes, then you will find the flashable zip on ~/cm13/out/target/product/devicename/
 
 After build finishes successfully, you can type in terminal:
-make clobber CAUTION: this will remove, all the compiled files. It will clear everything from /out directory, so make sure to grab your zip first ;)
+
+make clobber 
+
+CAUTION: this will remove, all the compiled files. It will clear everything from /out directory, so make sure to grab your zip first ;)
 
 Note: This process can be done only on 64bit systems, with 4GB RAM as minimum

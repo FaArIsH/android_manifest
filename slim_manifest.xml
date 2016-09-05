@@ -35,9 +35,66 @@
     <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="mm6.0" />
     
                                                 <!-- Switch to our Power HAL -->
-    <remove-project name="SlimRoms/hardware_qcom_power" />
+    <remove-project name="platform/hardware/qcom/power" />
+
+						<!-- CM HALS -->
+
+  <remove-project name="SlimRoms/hardware_qcom_audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="SlimRoms/hardware_qcom_bt" />
+  <remove-project name="SlimRoms/hardware_qcom_camera" />
+  <remove-project name="SlimRoms/hardware_qcom_display" />
+  <remove-project name="SlimRoms/hardware_qcom_gps" />
+  <remove-project name="SlimRoms/hardware_qcom_keymaster" />
+  <remove-project name="SlimRoms/hardware_qcom_media" />
+  <remove-project name="SlimRoms/hardware_qcom_wlan" />
+  <remove-project name="SlimRoms/hardware_ril" />
+
+
+  <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
+  <project path="hardware/qcom/audio-caf/apq8084" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-caf-8084" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="staging/cm-14.0-caf-8996" />
+  <project path="hardware/qcom/bootctrl" name="CyanogenMod/android_hardware_qcom_bootctrl" groups="pdk" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
+  <project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" revision="staging/cm-14.0-caf" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0-caf-8084" />
+  <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/cm-14.0-caf-8996" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom,qcom_gps" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
+  <project path="hardware/qcom/media-caf/apq8084" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-caf-8084" />
+  <project path="hardware/qcom/media-caf/msm8916" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="staging/cm-14.0-caf-8996" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="staging/cm-14.0-caf" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
+  <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="staging/cm-14.0-caf" />
+  <project path="vendor/qcom/opensource/dataservices" name="CyanogenMod/android_vendor_qcom_opensource_dataservices" />
+  <project path="vendor/qcom/opensource/dpm" name="CyanogenMod/android_vendor_qcom_opensource_dpm" />
+  <project path="vendor/qcom/opensource/time-services" name="CyanogenMod/android_vendor_qcom_opensource_time-services" />
     
     						<!-- Remove useless projects -->
+    
     <remove-project name="device/common" />
     <remove-project name="device/generic/arm64" />
     <remove-project name="device/generic/armv7-a-neon" />
@@ -45,17 +102,16 @@
     <remove-project name="device/generic/goldfish" />
     <remove-project name="device/generic/mips" />
     <remove-project name="device/google/atv" />
-    <remove-project name="SlimRoms/android_prebuilt" />
-    <remove-project name="SlimRoms/hardware_samsung_slsi_exynos5" />
-    <remove-project name="SlimRoms/hardware_ti_omap3" />
-    <remove-project name="SlimRoms/hardware_ti_omap4" />
-    <remove-project name="SlimRoms/hardware_ti_omap4xxx" />
-    <remove-project name="SlimRoms/hardware_ti_wlan" />
-    <remove-project name="SlimRoms/hardware_ti_wpan" />
+    <!-- <remove-project name="SlimRoms/hardware_samsung_slsi_exynos5" /> -->
+    <!-- <remove-project name="SlimRoms/hardware_ti_omap3" /> -->
+    <!-- <remove-project name="SlimRoms/hardware_ti_omap4" /> -->
+    <!-- <remove-project name="SlimRoms/hardware_ti_omap4xxx" /> -->
+    <!-- <remove-project name="SlimRoms/hardware_ti_wlan" /> -->
+    <!-- <remove-project name="SlimRoms/hardware_ti_wpan" /> -->
     <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
     <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
     <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
+    <!-- <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" /> -->
     <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />
     <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
@@ -90,6 +146,6 @@
     <remove-project name="platform/hardware/intel/img/psb_video" />
     <remove-project name="platform/hardware/intel/sensors" />
     <remove-project name="platform/hardware/marvell/bt" />
-    <remove-project name="platform/hardware/mediatek" />
+    <!-- <remove-project name="platform/hardware/mediatek" /> -->
     
 </manifest>

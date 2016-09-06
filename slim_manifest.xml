@@ -34,6 +34,10 @@
 						<!-- Slim Extras -->
     <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="mm6.0" />
     
+   						<!-- CM SoundRecorder -->
+   <remove-project name="platform/packages/apps/SoundRecorder" />
+   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github"  revision="cm-13.0" />
+    
                                                 <!-- Switch to our Power HAL -->
     <remove-project name="SlimRoms/hardware_qcom_power" />
     

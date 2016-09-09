@@ -32,16 +32,14 @@
     <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-13.0" />
     <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-13.0" />  -->
     
-    						<!-- Remove useless projects
-<remove-project name="CyanogenMod/android_device_common" />
-<remove-project name="CyanogenMod/android_device_generic_arm64" />
-<remove-project name="CyanogenMod/android_device_generic_armv7-a-neon" />
-<remove-project name="CyanogenMod/android_device_generic_common" />
-<remove-project name="CyanogenMod/android_device_generic_goldfish" />
-<remove-project name="CyanogenMod/android_device_generic_mips" />
-<remove-project name="CyanogenMod/android_device_google_atv" />
+    						<!-- Remove useless projects -->
+<remove-project name="device/common" />
+<remove-project name="device/generic/arm64" />
+<remove-project name="device/generic/armv7-a-neon" />
+<remove-project name="device/generic/common" />
+<remove-project name="device/generic/goldfish" />
 
-<remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+<!-- <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" /> -->
 <remove-project name="CyanogenMod/android_hardware_ti_omap4" />
 <remove-project name="platform/hardware/ti/omap4-aah" />
 <remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
@@ -61,35 +59,30 @@
 <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5" />
 
 <remove-project name="platform/developers/build" />
-<remove-project name="platform/developers/samples/android" />
 <remove-project name="device/generic/mini-emulator-arm64" />
 <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
-<remove-project name="device/generic/mini-emulator-mips" />
 <remove-project name="device/generic/mini-emulator-x86" />
 <remove-project name="device/generic/mini-emulator-x86_64" />
 <remove-project name="device/generic/qemu" />
 <remove-project name="device/generic/x86" />
 <remove-project name="device/generic/x86_64" />
-<remove-project name="device/google/accessory/arduino" />
-<remove-project name="device/google/accessory/demokit" />
 <remove-project name="device/sample" />
-<remove-project name="platform/docs/source.android.com" />
 
 <remove-project name="platform/hardware/intel/audio_media" />
 <remove-project name="platform/hardware/intel/bootstub" />
 <remove-project name="platform/hardware/intel/common/bd_prov" />
-<remove-project name="CyanogenMod/android_hardware_intel_common_libmix" />
+<remove-project name="platform/hardware/intel/common/libmix" />
 <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
-<remove-project name="CyanogenMod/android_hardware_intel_common_libva" />
-<remove-project name="CyanogenMod/android_hardware_intel_common_libwsbm" />
-<remove-project name="CyanogenMod/android_hardware_intel_common_omx-components" />
+<remove-project name="platform/hardware/intel/common/libva" />
+<remove-project name="platform/hardware/intel/common/libwsbm" />
+<remove-project name="platform/hardware/intel/common/omx-components" />
 <remove-project name="platform/hardware/intel/common/utils" />
 <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
-<remove-project name="CyanogenMod/android_hardware_intel_img_hwcomposer" />
-<remove-project name="CyanogenMod/android_hardware_intel_img_psb_headers" />
-<remove-project name="CyanogenMod/android_hardware_intel_img_psb_video" />
+<remove-project name="platform/hardware/intel/img/hwcomposer" />
+<remove-project name="platform/hardware/intel/img/psb_headers" />
+<remove-project name="platform/hardware/intel/img/psb_video" />
 <remove-project name="platform/hardware/intel/sensors" />
 <remove-project name="platform/hardware/marvell/bt" />
-<remove-project name="platform/hardware/ti/omap3" /> -->
+<remove-project name="platform/hardware/ti/omap3" />
 
 </manifest>

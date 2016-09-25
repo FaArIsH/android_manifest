@@ -32,6 +32,7 @@
 
 						<!-- Snap Camera -->
     <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" remote="github" revision="staging/cm-14.0" />
+    <project path="hardware/qcom/fm" name="SlimRoms/hardware_qcom_fm" remote="github" revision="ng7.0" />
     
                                                 <!-- Switch to our Power HAL -->
     <remove-project name="SlimRoms/hardware_qcom_power" />

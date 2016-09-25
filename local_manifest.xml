@@ -15,7 +15,7 @@
     <project path="vendor/samsung/wilcoxltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_wilcoxltexx" remote="github" revision="cm-13.0"/>
     
     <!-- Stock kernel -->
-    <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0" />
+    <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.0" />
     <!-- Custom kernel
     <project path="kernel/samsung/custom_kernel" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0_mod" /> -->
 

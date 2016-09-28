@@ -74,7 +74,7 @@
 <remove-project name="CyanogenMod/android_hardware_intel_common_libmix" />
 <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
 <remove-project name="CyanogenMod/android_hardware_intel_common_libva" />
-<remove-project name="platform/hardware/intel/common/libwsbm" />
+<remove-project name="CyanogenMod/android_hardware_intel_common_libwsbm" />
 <remove-project name="CyanogenMod/android_hardware_intel_common_omx-components" />
 <remove-project name="CyanogenMod/android_hardware_intel_common_utils" />
 <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />

@@ -1,10 +1,10 @@
-Manifest for building CyanogenMod 13 (Marshmallow) and Resurrection Remix (Marshmallow) for:
+Manifest for building CyanogenMod 14 (Nougat) for:
 
-1. Galaxy Ace 3 LTE GT-S7275R/B/T (loganreltexx) --> http://goo.gl/L4WSqe
+1. Galaxy Ace 3 LTE GT-S7275R/B/T (loganreltexx) --> http://goo.gl/ewBmpi
 
-2. Galaxy Express GT-i8730/T (expressltexx) --> http://goo.gl/x1KJl0
+2. Galaxy Express GT-i8730/T (expressltexx) --> http://goo.gl/d1pZmV
 
-3. Galaxy Express 2 SM-G3815 (wilcoxltexx) --> http://goo.gl/Fi2K3M
+3. Galaxy Express 2 SM-G3815 (wilcoxltexx) --> http://goo.gl/w7VgMS
 
 
 Instructions to build alone:
@@ -23,19 +23,19 @@ C. repo init -u https://github.com/CyanogenMod/android.git -b cm-13.0
 
 Now that you have done everything else from this guide except the commands above, open a new terminal:
 
-1. mkdir ~/cm13
+1. mkdir ~/cm14
 
-2. cd ~/cm13
+2. cd ~/cm14
 
-3. repo init -u https://github.com/CyanogenMod/android.git -b cm-13.0
+3. repo init -u https://github.com/CyanogenMod/android.git -b staging/cm-14.0
 
 4. mkdir .repo/local_manifests
 
 5. cd .repo/local_manifests
 
-6. wget https://github.com/MSM8930-Samsung/android_manifest/raw/cm-13.0/local_manifest.xml
+6. wget https://github.com/MSM8930-Samsung/android_manifest/raw/cm-14.0/local_manifest.xml
 
-7. cd ~/cm13
+7. cd ~/cm14
 
 8. repo sync --force-sync
 
@@ -43,13 +43,13 @@ When the process is finished, you will have fetched CyanogenMod source code, und
 
 Optinal step is to setup our enabled in ~/.bashrc ccache (for faster build on second time):
 
-1. cd ~/cm13
+1. cd ~/cm14
 
 2. prebuilts/misc/linux-x86/ccache/ccache -MXG, where X = Size in Gigabytes
 
 Now it is compile time ;) :
 
-1. cd ~/cm13
+1. cd ~/cm14
 
 2. repo sync --force-sync -jX, where X = Number of CPU cores on PC + 1
 
@@ -59,6 +59,6 @@ Now it is compile time ;) :
 
 5. time mka bacon -jX, where X = Number of CPU cores on PC + 1
 
-When this very long (especially on low-end PC) finishes, then you will find the flashable zip on ~/cm13/out/target/product/devicename/
+When this very long (especially on low-end PC) finishes, then you will find the flashable zip on ~/cm14/out/target/product/devicename/
 
-Note: This process can be done only on 64bit systems, with 4GB RAM as minimum
+Note: This process can be done only on 64bit systems, with 8GB RAM as minimum

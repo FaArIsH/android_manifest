@@ -52,8 +52,8 @@
     <!-- <remove-project name="SlimRoms/hardware_ti_omap4xxx" /> -->
     <!-- <remove-project name="SlimRoms/hardware_ti_wlan" /> -->
     <!-- <remove-project name="SlimRoms/hardware_ti_wpan" /> -->
-    <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-    <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
+    <remove-project name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+    <remove-project name="SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
     <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
     <!-- <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" /> -->
     <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />

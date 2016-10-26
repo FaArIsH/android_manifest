@@ -11,7 +11,7 @@
     
     						<!-- Longare & Express Kernel -->
     <!-- Stock kernel -->
-    <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.10" />
+    <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.1" />
     <!-- Custom kernel
     <project path="kernel/samsung/custom_kernel" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0_mod" /> -->
 

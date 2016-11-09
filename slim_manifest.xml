@@ -2,29 +2,29 @@
 <manifest>
 
 						<!-- Loganreltexx -->
-    <project path="device/samsung/loganreltexx" name="MSM8930-Samsung/android_device_samsung_loganreltexx" remote="github" revision="ng7.0" />
-    <project path="vendor/samsung/loganreltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_loganreltexx" remote="github" revision="cm-14.0"/>
+    <project path="device/samsung/loganreltexx" name="MSM8930-Samsung/android_device_samsung_loganreltexx" remote="github" revision="ng7.1" />
+    <project path="vendor/samsung/loganreltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_loganreltexx" remote="github" revision="cm-14.1"/>
     
     						<!-- Expressltexx -->
-    <project path="device/samsung/expressltexx" name="MSM8930-Samsung/android_device_samsung_expressltexx" remote="github" revision="ng7.0" />
-    <project path="vendor/samsung/expressltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_expressltexx" remote="github" revision="cm-13.0"/>
+    <project path="device/samsung/expressltexx" name="MSM8930-Samsung/android_device_samsung_expressltexx" remote="github" revision="ng7.1" />
+    <project path="vendor/samsung/expressltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_expressltexx" remote="github" revision="cm-14.1"/>
     
     						<!-- Stock kernel -->
-    <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.0" />
+    <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.1" />
     						<!-- Custom kernel
     <project path="kernel/samsung/custom_kernel" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0_mod" /> -->
     
         					<!-- Wilcoxltexx -->
-    <project path="device/samsung/wilcoxltexx" name="MSM8930-Samsung/android_device_samsung_wilcoxltexx" remote="github" revision="ng7.0" />
-    <project path="vendor/samsung/wilcoxltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_wilcoxltexx" remote="github" revision="cm-14.0"/>
-    <project path="kernel/samsung/wilcoxltexx" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.0" />
+    <project path="device/samsung/wilcoxltexx" name="MSM8930-Samsung/android_device_samsung_wilcoxltexx" remote="github" revision="ng7.1" />
+    <project path="vendor/samsung/wilcoxltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_wilcoxltexx" remote="github" revision="cm-14.1"/>
+    <project path="kernel/samsung/wilcoxltexx" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.1" />
     
 
     						<!-- Common Repo's -->
-    <project path="device/samsung/qcom-common" name="MSM8930-Samsung/android_device_samsung_qcom-common" remote="github" revision="ng7.0" />
-    <project path="device/samsung/msm8930-common" name="MSM8930-Samsung/android_device_samsung_msm8930-common" remote="github" revision="ng7.0" />
-    <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.0" />
-    <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0"/>
+    <project path="device/samsung/qcom-common" name="MSM8930-Samsung/android_device_samsung_qcom-common" remote="github" revision="ng7.1" />
+    <project path="device/samsung/msm8930-common" name="MSM8930-Samsung/android_device_samsung_msm8930-common" remote="github" revision="ng7.1" />
+    <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.1" />
+    <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.1"/>
     
         					<!-- NFC Repo's
     <project path="vendor/nxp-nfc/opensource/Nfc" name="SlimRoms/vendor_nxp-nfc_opensource_nfc" remote="github" revision="mm6.0" />

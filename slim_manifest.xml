@@ -35,7 +35,6 @@
     <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="mm6.0" /> -->
 	
  						<!-- Replacement/Additions -->
-   <remove-project name="platform/packages/apps/SoundRecorder" />
    <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github"  revision="cm-14.1" />
    <remove-project name="SlimRoms/packages_apps_Messaging" />
    <project path="packages/apps/Messaging" name="CyanogenMod/android_packages_apps_Messaging" remote="github"  revision="cm-14.1" />

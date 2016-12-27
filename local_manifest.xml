@@ -10,27 +10,22 @@
     <project path="vendor/samsung/expressltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_expressltexx" remote="github" revision="cm-14.1"/>
     
     						<!-- Longare & Express Kernel -->
-    <!-- Stock kernel -->
+    						<!-- Stock kernel -->
     <project path="kernel/samsung/msm8930-common" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.1" />
-    <!-- Custom kernel
+    						<!-- Custom kernel
     <project path="kernel/samsung/custom_kernel" name="MSM8930-Samsung/android_kernel_samsung_msm8930-common" remote="github" revision="cm-13.0_mod" /> -->
 
 						<!-- Wilcoxltexx -->
     <project path="device/samsung/wilcoxltexx" name="MSM8930-Samsung/android_device_samsung_wilcoxltexx" remote="github" revision="cm-14.1" />
     <project path="vendor/samsung/wilcoxltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_wilcoxltexx" remote="github" revision="cm-14.1"/>
-    <project path="kernel/samsung/wilcoxltexx" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.1" />
+    <project path="kernel/samsung/wilcoxltexx" name="LineageOS/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.1" />
 
     						<!-- Common Repo's -->
     <project path="device/samsung/qcom-common" name="MSM8930-Samsung/android_device_samsung_qcom-common" remote="github" revision="cm-14.1" />
     <project path="device/samsung/msm8930-common" name="MSM8930-Samsung/android_device_samsung_msm8930-common" remote="github" revision="cm-14.1" />
-    <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.1" />
-    <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.1" />
-    <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.1"/>
-    
-    						<!-- NFC Repo's
-    <project path="vendor/nxp-nfc/opensource/Nfc" name="CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc" remote="github" revision="cm-14.1" />
-    <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci" remote="github" revision="cm-14.1" />
-    <project path="vendor/nxp-nfc/opensource/frameworks" name="CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks" remote="github" revision="cm-14.1" /> -->
+    <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
+    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+    <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1"/>
     
     						<!-- Remove useless projects -->
 <remove-project name="device/common" />
@@ -39,19 +34,19 @@
 <remove-project name="device/generic/common" />
 <remove-project name="device/generic/goldfish" />
 
-<!-- <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos5" /> -->
-<remove-project name="CyanogenMod/android_hardware_ti_omap4" />
+<!-- <remove-project name="LineageOS/android_hardware_samsung_slsi_exynos5" /> -->
+<remove-project name="LineageOS/android_hardware_ti_omap4" />
 <remove-project name="platform/hardware/ti/omap4-aah" />
-<remove-project name="CyanogenMod/android_hardware_ti_omap4xxx" />
-<remove-project name="CyanogenMod/android_hardware_ti_wlan" />
-<remove-project name="CyanogenMod/android_hardware_ti_wpan" />
+<remove-project name="LineageOS/android_hardware_ti_omap4xxx" />
+<remove-project name="LineageOS/android_hardware_ti_wlan" />
+<remove-project name="LineageOS/android_hardware_ti_wpan" />
 
-<remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
+<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
 <remove-project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" />	
-<remove-project name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
+<remove-project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
 <remove-project name="platform/prebuilts/clang/darwin-x86/host/3.6" />
-<remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
-<remove-project name="CyanogenMod/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
+<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
+<remove-project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
 <remove-project name="platform/prebuilts/gdb/darwin-x86" />
 <remove-project name="platform/prebuilts/go/darwin-x86" />
 <remove-project name="platform/prebuilts/ninja/darwin-x86" />
@@ -70,16 +65,16 @@
 <remove-project name="platform/hardware/intel/audio_media" />
 <remove-project name="platform/hardware/intel/bootstub" />
 <remove-project name="platform/hardware/intel/common/bd_prov" />
-<remove-project name="CyanogenMod/android_hardware_intel_common_libmix" />
+<remove-project name="LineageOS/android_hardware_intel_common_libmix" />
 <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
-<remove-project name="CyanogenMod/android_hardware_intel_common_libva" />
-<remove-project name="CyanogenMod/android_hardware_intel_common_libwsbm" />
-<remove-project name="CyanogenMod/android_hardware_intel_common_omx-components" />
-<remove-project name="CyanogenMod/android_hardware_intel_common_utils" />
+<remove-project name="LineageOS/android_hardware_intel_common_libva" />
+<remove-project name="LineageOS/android_hardware_intel_common_libwsbm" />
+<remove-project name="LineageOS/android_hardware_intel_common_omx-components" />
+<remove-project name="LineageOS/android_hardware_intel_common_utils" />
 <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
-<remove-project name="CyanogenMod/android_hardware_intel_img_hwcomposer" />
-<remove-project name="CyanogenMod/android_hardware_intel_img_psb_headers" />
-<remove-project name="CyanogenMod/android_hardware_intel_img_psb_video" />
+<remove-project name="LineageOS/android_hardware_intel_img_hwcomposer" />
+<remove-project name="LineageOS/android_hardware_intel_img_psb_headers" />
+<remove-project name="LineageOS/android_hardware_intel_img_psb_video" />
 <remove-project name="platform/hardware/intel/sensors" />
 <remove-project name="platform/hardware/marvell/bt" />
 <remove-project name="platform/hardware/ti/omap3" />

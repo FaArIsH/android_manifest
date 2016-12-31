@@ -17,14 +17,14 @@
         					<!-- Wilcoxltexx -->
     <project path="device/samsung/wilcoxltexx" name="MSM8930-Samsung/android_device_samsung_wilcoxltexx" remote="github" revision="ng7.1" />
     <project path="vendor/samsung/wilcoxltexx" name="MSM8930-Samsung/proprietary_vendor_samsung_wilcoxltexx" remote="github" revision="cm-14.1"/>
-    <project path="kernel/samsung/wilcoxltexx" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.1" />
+    <project path="kernel/samsung/wilcoxltexx" name="LineageOS/android_kernel_samsung_msm8930-common" remote="github" revision="cm-14.1" />
     
 
     						<!-- Common Repo's -->
     <project path="device/samsung/qcom-common" name="MSM8930-Samsung/android_device_samsung_qcom-common" remote="github" revision="ng7.1" />
     <project path="device/samsung/msm8930-common" name="MSM8930-Samsung/android_device_samsung_msm8930-common" remote="github" revision="ng7.1" />
-    <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.1" />
-    <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.1"/>
+    <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
+    <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1"/>
     
         					<!-- NFC Repo's
     <project path="vendor/nxp-nfc/opensource/Nfc" name="SlimRoms/vendor_nxp-nfc_opensource_nfc" remote="github" revision="mm6.0" />
@@ -35,10 +35,10 @@
     <project path="packages/apps/SlimFileManager" name="SlimRoms/packages_apps_SlimFileManager" remote="github" revision="mm6.0" /> -->
 	
  						<!-- Replacement/Additions -->
-   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github"  revision="cm-14.1" />
+   <project path="packages/apps/SoundRecorder" name="LineageOS/android_packages_apps_SoundRecorder" remote="github"  revision="cm-14.1" />
    <remove-project name="SlimRoms/packages_apps_Messaging" />
-   <project path="packages/apps/Messaging" name="CyanogenMod/android_packages_apps_Messaging" remote="github"  revision="cm-14.1" />
-   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="cm-14.1" />
+   <project path="packages/apps/Messaging" name="LineageOS/android_packages_apps_Messaging" remote="github"  revision="cm-14.1" />
+   <project path="packages/apps/Browser" name="LineageOS/android_packages_apps_Browser" remote="github" revision="cm-14.1" />
     
                                                 <!-- Switch to our Power HAL -->
     <remove-project name="SlimRoms/hardware_qcom_power" />

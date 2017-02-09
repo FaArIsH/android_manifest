@@ -27,6 +27,7 @@
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
     <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-14.1"/>
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1"/>
+    <project path="external/busybox" name="LineageOS/android_external_busybox" remote="github" revision="cm-14.1" />
     
     						<!-- Remove useless projects -->
 <remove-project name="device/common" />
